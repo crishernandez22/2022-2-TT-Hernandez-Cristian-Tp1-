@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+	margin: 0px;
+	padding-top: 0px;
+	font-family: 'Roboto Slab', serif;
+}
+
+body {
+	background-color: #C9FCFF;
+	background-size:100% auto;
+	background-attachment: scroll;
+}
+
+h1 {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+
+span {
+	font-style: italic
+}
+
+li h3 p {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+
+.experiencia {
+	margin-top: 20px;
+	padding: 25px 20px;
+	border-radius: 20px;
+	}
+
+.info_puesto {
+	color: black;
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	}
+
+.puesto {
+	text-decoration: none;
+	list-style: none;
+	margin: 10 0 10 2;
+	}
+
+
+.bold {
+	color: black
+}
+
+.botonera {
+	width: 100vw;
+	height: 56px;
+	padding-top: 24px;
+	background-color: black;
+}
+	
+.botonera ul {
+	list-style: none;
+	text-align: end;
+	margin-right: 30px;
+}
+
+.botonera ul li {
+	display: inline;
+}
+
+.botonera a {
+	text-decoration: none;
+	color: white;
+	padding: 16px;
+	font-style:normal;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.botonera a:hover {
+	background-color: darkslateblue;
+}
+
+.bold {
+	color: black;
+	font-weight: 700;
+}
+
+.imagen_perfil {
+	padding: 60px;
+}
+
+.subtitulo {
+	padding: 40px 0px;
+	font-size: 25px;
+	text-align: center;
+	max-width: 780px
+}
+
+.cabecera {
+	text-align: center;
+	width: 100vw;
+	height: 850px;
+	background-color: #183333;
+	color: white;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+
+.caja_primaria {
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+.datos_personales {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px 30px 52px 30px;
+	margin: 40px 10px 40px 50px;
+	max-width: 60%;
+}
+
+.sobre_mi {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px 10px 0px 50px;
+	max-width: 600px;
+}
+
+.experiencia {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px 50px;
+	max-width: 45%;
+}
+
+.educacion {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px 50px;
+	max-width: 45%;
+}
+
+.caja_secundaria {
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+.habilidades {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px 10px 0px 50px;
+}
+
+.herramientas {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px 10px 0px 50px;
+}
+
+.idiomas {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 40px 10px 0px 50px;
+}
+
+.portfolio {
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+	border-radius: 25px;
+	padding: 30px;
+	margin: 0px 50px;
+	max-width: 80%;
+}
+
+.caja_portfolio {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 1050px;
+	height: 600px;
+	padding: 40px 0px 50px;
+	margin: 40px 0px 30px;
+	padding-bottom: 200px;
+}
+
+.caja_portfolio img {
+	border-radius: 1em;
+	box-shadow: 5px 5px 15px 0px black;
+	margin: 40px 50px;
+}
+
+.idioma_bold span {
+	font-style: normal;
+	font-weight: 700;
+}
+
+.footer p {
+	color: white;
+	font-size: 200; 
+	background-color: #4d4d4d;
+	padding: 60px 0px 60px 0px ;
+	text-align: center;
+	font-weight: 300;
+}
+	
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 0.8em;
+	}
+	
+	.cabecera {
+		background-size: 100% auto;
+		height: 700px;
+	}
+	
+	.imagen_perfil {
+		padding: 30px;
+	}
+		
+	h1 {
+		font-size: 5em;
+	}
+	
+	h2 {
+		font-size: 3em;
+	}
+	
+	.subtitulo {
+		font-size: 1.4em;
+		padding: 30px;
+	}
+	
+	.botonera {
+		height: 250px;
+	}
+	
+	.botonera ul{
+		height: 200px;
+		flex-direction: column;
+		display: flex;
+		justify-content: space-between;
+		text-align: center; 
+	}
+
+	.caja_primaria, .caja_secundaria {
+		flex-direction: column;
+		display: flex;
+		margin: 0px;
+		font-size: 1em;
+		width: 90%;
+	}
+	
+	.caja_secundaria {
+		flex-direction: column;
+		display: flex;
+		margin: 0px;
+		font-size: 1em;
+	}
+	
+	.caja_portfolio {
+		width: 100%;
+	}
+	.portfolio {
+		flex-direction: column;
+		display: flex;
+	}
+	
+	.datos_personales, .sobre_mi, .educacion, .puesto, .habilidades, .herramientas, .idiomas {
+		width: 70%;
+		margin: 30 0 30 30;
+	}
+	
+	.proyectos {
+		flex-direction: column;
+		display: flex;
+	}
+	
+	.footer {
+		padding-top: 600px;
+	}
+}
